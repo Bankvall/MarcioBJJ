@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+
+.titulo__subtitulo{
+    text-align: center;
+    
+}
+
+.titulo__subtitulo h1{
+
+    font-size: 5rem;
+}
