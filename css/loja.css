@@ -37,8 +37,8 @@ body{
 .produtos li {
     display: inline-block;
     text-align: center;
-    width: 30%; 
-    height: 400px; 
+    width: 270px; 
+    height: 450px; 
     vertical-align: top;
     margin: 2% 1.5%;
     padding: 30px 20px;
@@ -83,7 +83,9 @@ body{
 footer{ 
 	background: blanchedalmond; 
 	text-align: center; 
-	color: #1e1e1e; 
+    color: #1e1e1e; 
+    
+    bottom: 0px;
 } 
 
 .copyright{
