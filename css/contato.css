@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ 
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+
+main{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.projeto__titulo{
+    text-align: center;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-top: 2rem;
+    font-size: 4rem;
+    color: #3e3e3e;
+
+    font-weight: 300;
+    text-shadow: -3px -3px 6px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+    letter-spacing: 5px;
+}
+
+
+.formulario{
+  
+    width: 80%;
+    font-size: 1.125rem;
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+form label,
+form input,
+form textarea,
+form button{
+
+    display: block;
+    width: 100%;
+}
+
+.formulario label{
+    color: #1e1e2a;
+    font-weight: 500;
+    text-shadow: -3px -3px 6px #ffffff73, 3px 3px 5px rgba(153, 160, 172, 0.288);
+    letter-spacing: 2px;
+
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.formulario input,
+.formulario textarea{
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    font: inherit;
+    border-radius: 15px;
+    border: none;
+
+    text-shadow: -3px -3px 6px #ffffff73, 3px 3px 5px rgba(153, 160, 172, 0.288);
+
+    background-color: #dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73,  3px 3px 5px rgba(94, 104, 121, .288);
+    border-radius: 10px;
+}
+
+
+.formulario  textarea{
+    min-height: 13rem;
+    resize: vertical;
+}
+
+.formulario input:hover,
+.formulario input:focus,
+.formulario textarea:hover,
+.formulario textarea:focus{
+    outline: none;
+    box-shadow: inset -3px -3px 7px #ffffff73,  inset 3px 3px 5px rgba(94, 104, 121, .288);
+
+}
+
+.formulario button{
+    display: block;
+    padding: 1rem;
+    background-color: #3e3e3e;
+    border: none;
+    border-radius: 25px;
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    color: #dde1e7;
+}
+
+@media (min-width: 1024px){
+   
+   .formulario{
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 5rem;
+
+   } 
+
+.formulario button{
+    width: 30%;
+    margin-left: 35%;
+    transition: all .4s;
+    box-shadow:  -3px -3px 7px #ffffff73,   3px 3px 5px rgba(94, 104, 121, .288);
+
+}
+.formulario button:hover{
+    transform: scale(1.1, 1.1);
+}
+
+}  
+
+/* <---- rodape ----> */  
+
+footer{ 
+	background: blanchedalmond; 
+	text-align: center; 
+	color: #1e1e1e; 
+} 
+
+.copyright{
+	font-size: 13px;
+	margin: 20px 0 0;
+	font-size: 20px;
+}

@@ -1,0 +1,154 @@
+/* <---- titulo__subtitulo ----> */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Gemunu Libre', sans-serif; 
+    margin: 0; 
+    padding: 0;
+}
+
+
+.titulo__subtitulo{
+    text-align: center;
+    background: #000000; 
+}
+
+.titulo__subtitulo h1{
+    color: #FFFFFF;
+    font-size: 5rem;
+
+}
+ 
+
+.titulo__subtitulo h2{
+    color: #FFFFFF; 
+    
+} 
+
+
+.logo {
+  width: 15rem; 
+} 
+
+/*  <---- introducao-conteiner ----> */ 
+
+.introducao-conteiner{
+	display: flex;
+	justify-content: space-between ;
+	flex-direction: column;
+	text-align: center;
+	background: #C0C0C0;
+} 
+
+.img-jiujitsu{
+	margin-top: 3rem;
+	width: 50%; 
+	margin-left: auto;
+	margin-right: auto;
+	
+} 
+
+
+p{
+	text-align: center;
+	color: #1e1e1e;
+} 
+
+
+ul,li {
+	display: block; 
+	text-align: center; 
+	color: #1e1e1e;
+} 
+
+/* <---- faixas_bjj ----> */
+
+.faixas_bjj{
+	display: flex;
+	justify-content: space-between ;
+	flex-direction: column;
+	text-align: center; 
+	background: #C0C0C0;
+} 
+
+.faixas{
+	margin-top: 3rem;
+	width: 80%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* <---- mapa-indereco ----> */ 
+
+.mapa {
+    padding-top: 4rem;
+    background: #000000; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  
+} 
+
+.endereco {
+    text-align: center; 
+    color: #daae6d; 
+    text-align: center; 
+}
+
+
+iframe {
+    display: block;
+    border-style:none;
+     margin: 0 auto;
+} 
+
+/* <---- video ----> */ 
+
+.video {
+    padding-top: 4rem; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: #C0C0C0;
+  
+} 
+
+
+iframe {
+    display: block;
+    border-style:none;
+     margin: 0 auto;
+} 
+
+/* <---- informacao ----> */ 
+
+.informacao{	
+	color: #1e1e1e; 
+    text-align: center; 
+    text-shadow: -3px -3px 6px #ffffff73, 3px 3px 5px rgba(153, 160, 172, 0.288);
+
+    background-color: #dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73,  3px 3px 5px rgba(94, 104, 121, .288);
+    border-radius: 10px;
+} 
+
+/* <---- rodape ----> */  
+
+footer{ 
+	background: blanchedalmond; 
+	text-align: center; 
+	color: #1e1e1e; 
+} 
+
+.copyright{
+	font-size: 13px;
+	margin: 20px 0 0;
+	font-size: 20px;
+}
