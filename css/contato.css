@@ -13,8 +13,6 @@ main{
     justify-content: center;
     flex-direction: column;
 
-    padding-left: 1rem;
-    padding-right: 1rem;
 }
 .projeto__titulo{
     text-align: center;
