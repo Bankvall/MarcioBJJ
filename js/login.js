@@ -6,3 +6,12 @@ function mostraSenha(){
 		senha.type=="password";
 	 }
 }
+
+function mostraConfirmarSenha(){
+	var senha=document.getElementById("confirmSenha");
+     if(senha.type=="password"){
+		 senha.type="text";
+	 }else{
+		senha.type=="password";
+	 }
+}
