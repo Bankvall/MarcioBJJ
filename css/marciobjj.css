@@ -113,7 +113,8 @@ iframe {
 .horarios{
     font-family: 'Gemunu Libre', sans-serif;
     text-align: center; 
-    background-color: #DCDCDC;
+    background-color: #DCDCDC; 
+    font-size: 17px;
 }
 
 
