@@ -105,7 +105,19 @@ iframe {
     display: block;
     border-style:none;
      margin: 0 auto;
-} 
+}  
+
+
+/* <---- horarios ----> */ 
+
+.horarios{
+    font-family: 'Gemunu Libre', sans-serif;
+    text-align: center; 
+    background-color: #DCDCDC;
+}
+
+
+
 
 /* <---- video ----> */ 
 
