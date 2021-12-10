@@ -85,13 +85,12 @@ ul,li {
 
 .mapa {
     padding-top: 4rem;
-    background: #000000; 
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     align-content: center;
-  
+    background: linear-gradient(#FEFEFE, #888888);
 } 
 
 .endereco {
@@ -104,8 +103,8 @@ ul,li {
 iframe {
     display: block;
     border-style:none;
-     margin: 0 auto;
-}  
+    margin: 0 auto;  
+}
 
 
 /* <---- horarios ----> */ 
